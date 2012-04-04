@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd `dirname $0`
+python manage.py reset --noinput Demo auth contenttypes sessions sites messages staticfiles admin $*
+
